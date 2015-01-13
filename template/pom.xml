@@ -1,0 +1,445 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <dependencies>
+           <dependency>
+          <version>1.1</version>
+          <artifactId>activation<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.8.4</version>
+          <artifactId>ant-zip<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>2.7.7</version>
+          <artifactId>antlr<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.0</version>
+          <artifactId>aopalliance<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.5.0</version>
+          <artifactId>aspectjrt<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.5.0</version>
+          <artifactId>aspectjweaver<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>2.2.3</version>
+          <artifactId>cglib-nodep<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.9.1</version>
+          <artifactId>commons-beanutils<artifactId>
+          <groupId>commons-beanutils</groupId>
+        </dependency>
+        <dependency>
+          <version>1.2</version>
+          <artifactId>commons-cli<artifactId>
+          <groupId>commons-cli</groupId>
+        </dependency>
+        <dependency>
+          <version>1.6</version>
+          <artifactId>commons-codec<artifactId>
+          <groupId>commons-codec</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.1</version>
+          <artifactId>commons-collections<artifactId>
+          <groupId>commons-collections</groupId>
+        </dependency>
+        <dependency>
+          <version>1.3</version>
+          <artifactId>commons-dbcp<artifactId>
+          <groupId>commons-dbcp</groupId>
+        </dependency>
+        <dependency>
+          <version>1.3.1</version>
+          <artifactId>commons-fileupload<artifactId>
+          <groupId>commons-fileupload</groupId>
+        </dependency>
+        <dependency>
+          <version>2.2</version>
+          <artifactId>commons-io<artifactId>
+          <groupId>commons-io</groupId>
+        </dependency>
+        <dependency>
+          <version>3.1</version>
+          <artifactId>commons-lang3<artifactId>
+          <groupId>org.apache.commons</groupId>
+        </dependency>
+        <dependency>
+          <version>3.3</version>
+          <artifactId>commons-net<artifactId>
+          <groupId>commons-net</groupId>
+        </dependency>
+        <dependency>
+          <version>1.6</version>
+          <artifactId>commons-pool<artifactId>
+          <groupId>commons-pool</groupId>
+        </dependency>
+        <dependency>
+          <version>1.6.1</version>
+          <artifactId>dom4j<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>2.5.7</version>
+          <artifactId>ehcache-core<artifactId>
+          <groupId>net.sf.ehcache</groupId>
+        </dependency>
+        <dependency>
+          <version>1.0.4</version>
+          <artifactId>fastjson<artifactId>
+          <groupId>com.alibaba</groupId>
+        </dependency>
+        <dependency>
+          <version>2.0.235</version>
+          <artifactId>filters<artifactId>
+          <groupId>com.jhlabs</groupId>
+        </dependency>
+        <dependency>
+          <version>2.3.19</version>
+          <artifactId>freemarker<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>11.0.2</version>
+          <artifactId>guava<artifactId>
+          <groupId>com.google.guava</groupId>
+        </dependency>
+        <dependency>
+          <version>1.0.1.Final</version>
+          <artifactId>hibernate-jpa-2.0-api<artifactId>
+          <groupId>org.hibernate.javax.persistence</groupId>
+        </dependency>
+        <dependency>
+          <version>4.2.0.Final</version>
+          <artifactId>hibernate-validator<artifactId>
+          <groupId>org.hibernate</groupId>
+        </dependency>
+        <dependency>
+          <version>3.6.10.Final</version>
+          <artifactId>hibernate-core<artifactId>
+          <groupId>org.hibernate</groupId>
+        </dependency>
+        <dependency>
+          <version>1.6</version>
+          <artifactId>htmlparser<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>4.3.4</version>
+          <artifactId>httpclient<artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </dependency>
+        <dependency>
+          <version>4.3.1</version>
+          <artifactId>httpcore<artifactId>
+          <groupId>org.apache.httpcomponents</groupId>
+        </dependency>
+        <dependency>
+          <version>4.2</version>
+          <artifactId>imgscalr-lib<artifactId>
+          <groupId>org.imgscalr</groupId>
+        </dependency>
+        <dependency>
+          <version>2.0.6</version>
+          <artifactId>jackson-annotations<artifactId>
+          <groupId>com.fasterxml.jackson.core</groupId>
+        </dependency>
+        <dependency>
+          <version>2.0.6</version>
+          <artifactId>jackson-core<artifactId>
+          <groupId>com.fasterxml.jackson.core</groupId>
+        </dependency>
+        <dependency>
+          <version>2.0.6</version>
+          <artifactId>jackson-databind<artifactId>
+          <groupId>com.fasterxml.jackson.core</groupId>
+        </dependency>
+        <dependency>
+          <version>3.12.0.GA</version>
+          <artifactId>javassist<artifactId>
+          <groupId>javassist</groupId>
+        </dependency>
+        <dependency>
+          <version>1.5.0</version>
+          <artifactId>javax.mail<artifactId>
+          <groupId>com.sun.mail</groupId>
+        </dependency>
+        <dependency>
+          <version>2.2</version>
+          <artifactId>jaxb-api<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>2.1.12</version>
+          <artifactId>jaxb-impl<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1</version>
+          <artifactId>jcaptcha-2.0-alpha<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.7.2</version>
+          <artifactId>jcl-over-slf4j<artifactId>
+          <groupId>org.slf4j</groupId>
+        </dependency>
+        <dependency>
+          <version>2.1</version>
+          <artifactId>joda-time<artifactId>
+          <groupId>joda-time</groupId>
+        </dependency>
+        <dependency>
+          <version>2.2.1</version>
+          <artifactId>jodconverter<artifactId>
+          <groupId>com.artofsolving</groupId>
+        </dependency>
+        <dependency>
+          <version>2.2.2</version>
+          <artifactId>jodconverter<artifactId>
+          <groupId>com.artofsolving</groupId>
+        </dependency>
+        <dependency>
+          <version>2.2.2</version>
+          <artifactId>jodconverter-cli<artifactId>
+          <groupId>com.artofsolving</groupId>
+        </dependency>
+        <dependency>
+          <version>1.1.2</version>
+          <artifactId>jstl<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.1</version>
+          <artifactId>jta<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.0.1</version>
+          <artifactId>juh<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.7.2</version>
+          <artifactId>jul-to-slf4j<artifactId>
+          <groupId>org.slf4j</groupId>
+        </dependency>
+        <dependency>
+          <version>3.0.1</version>
+          <artifactId>jurt<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.2</version>
+          <artifactId>log4jdbc3<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.0.7</version>
+          <artifactId>logback-classic<artifactId>
+          <groupId>ch.qos.logback</groupId>
+        </dependency>
+        <dependency>
+          <version>1.0.7</version>
+          <artifactId>logback-core<artifactId>
+          <groupId>ch.qos.logback</groupId>
+        </dependency>
+        <dependency>
+          <version>3.6.2</version>
+          <artifactId>lucene-analyzers<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.6.2</version>
+          <artifactId>lucene-core<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.6.2</version>
+          <artifactId>lucene-facet<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.6.2</version>
+          <artifactId>lucene-grouping<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.6.2</version>
+          <artifactId>lucene-highlighter<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.6.2</version>
+          <artifactId>lucene-memory<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.6.2</version>
+          <artifactId>lucene-queries<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>5.1.22</version>
+          <artifactId>mysql-connector-java<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.9</version>
+          <artifactId>poi<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.9</version>
+          <artifactId>poi-scratchpad<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>2.1.7</version>
+          <artifactId>quartz<artifactId>
+          <groupId>org.quartz-scheduler</groupId>
+        </dependency>
+        <dependency>
+          <version>2.9.0</version>
+          <artifactId>querydsl<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.0.1</version>
+          <artifactId>ridl<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.2.1</version>
+          <artifactId>shiro-core<artifactId>
+          <groupId>org.apache.shiro</groupId>
+        </dependency>
+        <dependency>
+          <version>1.2.1</version>
+          <artifactId>shiro-ehcache<artifactId>
+          <groupId>org.apache.shiro</groupId>
+        </dependency>
+        <dependency>
+          <version>1.2.1</version>
+          <artifactId>shiro-spring<artifactId>
+          <groupId>org.apache.shiro</groupId>
+        </dependency>
+        <dependency>
+          <version>1.2.1</version>
+          <artifactId>shiro-web<artifactId>
+          <groupId>org.apache.shiro</groupId>
+        </dependency>
+        <dependency>
+          <version>1.7.2</version>
+          <artifactId>slf4j-api<artifactId>
+          <groupId>org.slf4j</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-aop<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-beans<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-context<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-context-support<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-core<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.4.0.RELEASE</version>
+          <artifactId>spring-data-commons-core<artifactId>
+          <groupId>org.springframework.data</groupId>
+        </dependency>
+        <dependency>
+          <version>1.2.0.RELEASE</version>
+          <artifactId>spring-data-jpa<artifactId>
+          <groupId>org.springframework.data</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-expression<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-jdbc<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-orm<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-tx<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-web<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.2.8.RELEASE</version>
+          <artifactId>spring-webmvc<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>1.1.2</version>
+          <artifactId>standard<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>2</version>
+          <artifactId>stax-api-1.0<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>3.0.1</version>
+          <artifactId>unoil<artifactId>
+          <groupId>not yet found</groupId>
+        </dependency>
+        <dependency>
+          <version>4.0.3</version>
+          <artifactId>urlrewritefilter<artifactId>
+          <groupId>org.tuckey</groupId>
+        </dependency>
+        <dependency>
+          <version>1.0.0.GA</version>
+          <artifactId>validation-api<artifactId>
+          <groupId>javax.validation</groupId>
+        </dependency>
+        <dependency>
+          <version>1.3.1</version>
+          <artifactId>xstream<artifactId>
+          <groupId>com.thoughtworks.xstream</groupId>
+        </dependency>
+ </dependencies>	
+</project>

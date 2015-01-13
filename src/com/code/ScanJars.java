@@ -6,16 +6,11 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
-import java.util.Map;
 import java.util.Properties;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
-import java.util.jar.Manifest;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import org.junit.Test;
-
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 public class ScanJars {
@@ -62,23 +57,29 @@ public class ScanJars {
 			e.printStackTrace();
 		}
 		if (!flag) {
-			String[] paths=	jarFile.getName().split("\\\\");
-			String fileName=paths[paths.length-1];
-			jsonObject=extraInPomInfo(fileName);
+			String[] paths = jarFile.getName().split("\\\\");
+			String fileName = paths[paths.length - 1];
+			jsonObject = extraInPomInfo(fileName);
 		}
 		return jsonObject;
 	}
-private static JSONObject extraInPomInfo(String fileName){
-	JSONObject json=new JSONObject();
-	String[]args=fileName.split("-");
-	int lastIndex=fileName.indexOf(args[args.length-1]);
-	String artifactId=fileName.substring(0,lastIndex-1);
-	String version=args[args.length-1].substring(0,args[args.length-1].length()-4);
-	json.put(POM_VERSION, version);
-	json.put(POM_ARTIFACTID, artifactId);
-	json.put(POM_GROUPID, "not yet found");
-	return json;
-}
+
+	private static JSONObject extraInPomInfo(String fileName) {
+		JSONObject json = new JSONObject();
+		String[] args = fileName.split("-");
+		if (args == null) {
+			return json;
+		}
+		int lastIndex = fileName.indexOf(args[args.length - 1]);
+		String artifactId = fileName.substring(0, lastIndex - 1);
+		String version = args[args.length - 1].substring(0,
+				args[args.length - 1].length() - 4);
+		json.put(POM_VERSION, version);
+		json.put(POM_ARTIFACTID, artifactId);
+		json.put(POM_GROUPID, "not yet found");
+		return json;
+	}
+
 	private static JSONObject extraPomInfo(JarEntry entry, JarFile jarFile) {
 		JSONObject json = new JSONObject();
 		if (entry == null || jarFile == null)
@@ -97,12 +98,12 @@ private static JSONObject extraInPomInfo(String fileName){
 	}
 
 	public static void main(String[] args) {
-		
-//		String path = "F:\\TeSekuWorkSpace\\jspxcms_longyan\\WebContent\\WEB-INF\\lib";
-//		List<String> pathList = ScanJars.getJarList(path);
-//		for (String temp : pathList) {
-//			System.out.println(ScanJars.getPom(temp));
-//		}
+		String path = "F:\\TeSekuWorkSpace\\jspxcms_longyan\\WebContent\\WEB-INF\\lib";
+		List<String> pathList = ScanJars.getJarList(path);
+		JSONArray jsonArray=new JSONArray();
+		for (String temp : pathList) {
+			jsonArray.add(ScanJars.getPom(temp));
+		}
+		FreemarkerUtils.generatePom(jsonArray);
 	}
-	
 }
